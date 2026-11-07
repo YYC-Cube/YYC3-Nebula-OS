@@ -9,7 +9,7 @@
 - 补齐开源社区健康文件：`LICENSE`、`CODE_OF_CONDUCT.md`、`SECURITY.md`、`CHANGELOG.md`
 - 新增 `docs/README.md` 全局文档索引，串联标规文档、开发指南与验收体系
 - 新增 ESLint 9 Flat Config（`eslint.config.mjs`），接入 `eslint-config-next` 16
-- 新增 `pnpm-workspace.yaml`，按 pnpm 12 规范通过 `allowBuilds` 管理构建脚本
+- 新增 `pnpm-workspace.yaml`，按 pnpm 12 规范通过 `allowBuilds` 管理构建脚本，并设置 `minimumReleaseAge: 60` 供应链策略
 - `package.json` 增加仓库元数据：`description`、`keywords`、`repository`、`bugs`、`homepage`、`author`、`license`、`engines`
 - 新增 `verify` 脚本作为本地与 CI 的统一质量门禁
 - 项目英文名定为 **NebulaOS**，仓库迁移至 `YYC3-Nebula-OS`，同步更新徽章、克隆地址与包元数据

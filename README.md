@@ -307,7 +307,7 @@ pnpm start   # 以生产模式启动
 ## 十二、质量与安全
 
 - **CI 门禁**：GitHub Actions 在 Node 22 + pnpm 12 上执行 `pnpm verify`。
-- **依赖治理**：`pnpm` 严格锁文件，`allowBuilds` 白名单放行构建脚本。
+- **依赖治理**：`pnpm` 严格锁文件，`allowBuilds` 白名单放行构建脚本，`minimumReleaseAge` 拦截刚发布的版本。
 - **安全基线**：响应头包含 `X-Content-Type-Options`、`X-Frame-Options`、`Referrer-Policy`；详见 [SECURITY.md](./SECURITY.md)。
 - **类型与规范**：TypeScript 5.9 + ESLint 9 Flat Config；存量告警按规则分级治理。
 

@@ -2,3 +2,6 @@ allowBuilds:
   esbuild: true
   sharp: true
   "@tailwindcss/oxide": true
+
+# 供应链策略：拒绝发布不足 60 分钟的依赖版本（CI 默认 24 小时，会拦截新发布版本）
+minimumReleaseAge: 60
