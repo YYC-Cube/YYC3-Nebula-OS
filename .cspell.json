@@ -1,0 +1,33 @@
+{
+  "version": "0.2",
+  "language": "en",
+  "words": [
+    "yyc3",
+    "nebula",
+    "nextjs",
+    "tailwindcss",
+    "shadcn",
+    "typecheck",
+    "pnpm",
+    "hookform",
+    "vercel",
+    "clsx",
+    "cmdk",
+    "embla",
+    "lucide",
+    "sonner",
+    "vaul",
+    "radix",
+    "geist",
+    "recharts",
+    "framer",
+    "postcss",
+    "otp",
+    "rbac"
+  ],
+  "ignorePaths": [
+    "node_modules/**",
+    ".next/**",
+    "pnpm-lock.yaml"
+  ]
+}
